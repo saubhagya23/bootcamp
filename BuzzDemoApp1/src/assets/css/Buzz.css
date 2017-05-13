@@ -1,0 +1,99 @@
+body {
+    background: #EBEBEC;
+}
+.wrapper-create-buzz {
+    background: white;
+    padding: 20px;
+    margin: 0 auto;
+    width: 60%;
+    display: table;
+    content: " ";
+}
+
+.wrapper-create-buzz p {
+    margin: 0px;
+    border: 1px solid black;
+    padding: 10px;
+    background: whitesmoke;
+}
+
+.wrapper-create-buzz img{
+    width: 3%;
+    padding: 1px;
+}
+
+.buzz-details {
+    border-radius: 3px;
+    background: transparent;
+    display: block;
+    margin: 0px auto 30px auto;
+}
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius:5px;
+}
+
+.dropdown {
+    position: relative;
+    float:left;
+    margin: 0px 45px;
+    background-color: forestgreen;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+.upload {
+    float:left;
+}
+.upload input[type='image'] {
+    width:10%;
+}
+
+.submit-buzz {
+    margin: 0px 43px;
+    padding: 10px;
+    color: white;
+    float: right;
+    background: #1e90ff;
+    border: none;
+    border-radius: 5px;
+}
+
+.end {
+    color:darkgrey;
+    text-align: center;
+    font-size: 40px;
+    clear:both;
+}

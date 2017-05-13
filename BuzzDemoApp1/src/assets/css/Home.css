@@ -1,0 +1,95 @@
+body {
+    background: #EBEBEC;
+}
+
+ul {
+    list-style-type: none;
+}
+
+button {
+    float: right;
+    padding: 15px;
+    background-color: darkgray   ;
+    color: #000000;
+    border-style: none;
+    border-radius: 10px;
+    margin-bottom:20px;
+}
+
+.banner-image {
+    position: relative;
+    width: 100%;
+}
+
+.banr{
+    width: 100%;
+    height: 350px;
+}
+
+.logo {
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    width: 110px;
+}
+
+.text-on-image {
+    position: absolute;
+    left: 8%;
+    top: 25%;
+    font-weight: bold;
+    font-size: 2.0em;
+    font-family: Tahoma;
+
+}
+
+.wrapper {
+    float: left;
+    width: 21%;
+    padding:5px;
+    background: white;
+}
+
+.wrapper .main-menu {
+    padding:0px;
+    border: 1px solid black;
+    border-width:1px 1px  0px 1px;
+}
+
+.wrapper .main-menu li {
+    padding: 5px;
+    border-bottom: 1px solid;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.wrapper .main-menu li a:hover {
+    color:orangered;
+}
+
+.wrapper .main-menu li a span {
+    float:right;
+}
+
+.wrapper .help-menu {
+    margin: 13px 0px;
+    float:right;
+}
+
+.wrapper .help-menu li {
+    float:left;
+    margin-left:5px;
+}
+
+.wrapper .sidebar-footer {
+    display: table;
+    content:'';
+}
+
+.wrapper .sidebar-footer p{
+    float:left;
+}
+
