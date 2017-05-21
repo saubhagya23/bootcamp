@@ -1,0 +1,71 @@
+.buzz-list {
+    margin-right: 25px;
+    width: 71%;
+    float: right;
+    padding: 20px;
+}
+
+.wrapper-buzz-list {
+    background-color: white;
+    margin: 20px;
+}
+
+
+.header-buzz-list{
+    border-bottom: 2px;
+    background-color: aqua;
+    width: 100%;
+    height: 10%;
+}
+
+.header-buzz-list h4{
+    color: darkgrey;
+    float:left;
+    margin: 9px;
+}
+
+.header-buzz-list h5{
+    color: blue;
+    float: right;
+    margin: 9px;
+}
+
+.mid-buzz-list {
+    clear: both;
+}
+
+.mid-buzz-list div:nth-child(3) {
+    content: '';
+    display: table;
+}
+
+.mid-buzz-list h3{
+    color: red;
+    margin: 10px;
+}
+
+.mid-buzz-list .buzz-image{
+    margin: 20px;
+    width: 40%;
+}
+
+.likeIcon {
+    width: 31px;
+    float: left;
+}
+
+.dislikeIcon{
+    width: 31px;
+    float: left;
+
+}
+
+.likeButton{
+    height: 35px;
+    width: 45px;
+}
+
+.dislikeButton{
+    height: 35px;
+    width: 45px;
+}
