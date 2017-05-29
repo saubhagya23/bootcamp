@@ -1,0 +1,24 @@
+.resolved-list {
+    margin-right: 25px;
+    width: 71%;
+    float: right;
+    padding: 20px;
+}
+
+.wrapper-resolved-list table {
+    border-collapse: collapse;
+    margin: 20px;
+    width: 100%;
+}
+
+.wrapper-resolved-list th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+.wrapper-resolved-list tr:nth-child(even){background-color: #f2f2f2}
+
+.wrapper-resolved-list th {
+    background-color: #4CAF50;
+    color: white;
+}
