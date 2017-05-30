@@ -1,0 +1,132 @@
+.buzz-list {
+    margin-right: 25px;
+    width: 71%;
+    float: right;
+    padding: 20px;
+    color:white;
+}
+
+.buzz-list h3 {
+    text-align: center;
+}
+
+.wrapper-buzz-list {
+    color:black;
+    padding: 38px 20px;
+    background-color: white;
+    margin: 20px;
+}
+
+
+.header-buzz-list{
+    border-bottom: 2px;
+    width: 100%;
+    height: 10%;
+}
+
+.wrapper-buzz-list .header-buzz-list .category {
+    clear:both;
+    color:black;
+    text-decoration: underline;
+    float: right;
+    padding: 10px 0px 10px 10px;
+
+}
+
+.header-buzz-list h4{
+    font-size: larger;
+    line-height: 38px;
+    display: inline-block;
+    color: darkgrey;
+    margin: 9px;
+}
+
+.header-buzz-list h5{
+    float:right;
+   line-height: 25px;
+    padding-left: 54px;
+    font-size: 16px;
+    color: blue;
+    margin: 9px;
+}
+
+.user-image {
+    float: left;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.mid-buzz-list {
+    text-align: center;
+    clear: both;
+}
+
+.mid-buzz-list div:nth-child(3) {
+    content: '';
+    display: block;
+}
+
+.mid-buzz-list h3{
+    text-align: left;
+    font-size: x-large;
+    color: darkblue;
+    margin: 10px;
+    font-style: oblique;
+}
+
+.mid-buzz-list .buzz-image{
+    margin: 20px;
+    width: 60%;
+}
+
+.likeIcon {
+    width: 38px;
+    float: left;
+}
+
+.dislikeIcon{
+    width: 33px;
+    float: left;
+
+}
+
+.deleteIcon {
+    width: 31px;
+    float: left;
+
+}
+
+.likeButton, .dislikeButton{
+    cursor: pointer;
+    outline: none;
+    border: none;
+    height: 35px;
+    width: 45px;
+    background: transparent;
+}
+
+
+.comment {
+    padding:10px;
+    width:100%
+}
+
+.comment textarea {
+    width: 60%;
+    height: 15px;
+    padding: 3px;
+}
+
+.comment button {
+    height: 23px;
+    float: right;
+    margin: 0px 62px 0px -174px;
+}
+
+.delete-post {
+    outline: none;
+    border: none;
+    background: transparent;
+    float: right;
+    cursor: pointer;
+}
